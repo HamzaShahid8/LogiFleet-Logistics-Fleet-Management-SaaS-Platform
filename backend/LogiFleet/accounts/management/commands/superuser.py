@@ -1,7 +1,7 @@
 from django.core.management import BaseCommand
 from django.contrib.auth import get_user_model
 import os
-
+# hello this is new branch code fot testing
 User = get_user_model()
 
 class Command(BaseCommand):
